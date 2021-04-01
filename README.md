@@ -15,7 +15,7 @@ The term service mesh is used to describe the network of microservices that make
 3. Edit the catalog application and select an add-on category (e.g. Networking). This is required to select the application as a add-on.
 4. Update a Cluster Type, or create a new one, and select the Istio add-on application in the "Add-Ons" section.
 5. Create clusters using the cluster type.
-6. If addon is to be added to a running cluster, create a environemnt with name "istio-system" and choose this environment while deploying the application
+6. If addon is to be added to a running cluster, create a environemnt with name "**istio-system**" and choose this environment while deploying the application
 6. Verify that the application is running.
 
 
