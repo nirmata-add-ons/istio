@@ -3,7 +3,6 @@
 This README documents the Istio integration as Nirmata add-on on Kubernetes clusters.
 
 ### What is Istio?
-Istio manisfests for use with Nirmata.
 Istio It is a completely open source service mesh that lets you connect, secure, control, and observe services.
 
 ### What is a service mesh?
