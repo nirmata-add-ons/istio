@@ -8302,6 +8302,7 @@ spec:
   selector:
     matchLabels:
       app: istio-ingressgateway
+      kubernetes.io/os: linux
       istio: ingressgateway
   strategy:
     rollingUpdate:
