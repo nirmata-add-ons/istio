@@ -8302,8 +8302,8 @@ spec:
   selector:
     matchLabels:
       app: istio-ingressgateway
-      kubernetes.io/os: linux
       istio: ingressgateway
+      kubernetes.io/os: linux
   strategy:
     rollingUpdate:
       maxSurge: 100%
@@ -8534,6 +8534,7 @@ spec:
   selector:
     matchLabels:
       istio: pilot
+      kubernetes.io/os: linux
   strategy:
     rollingUpdate:
       maxSurge: 100%
