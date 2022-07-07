@@ -7621,11 +7621,11 @@ data:
           "readinessPeriodSeconds": 2,
           "resources": {
             "limits": {
-              "cpu": "2000m",
-              "memory": "1024Mi"
+              "cpu": "25m",
+              "memory": "256Mi"
             },
             "requests": {
-              "cpu": "100m",
+              "cpu": "20m",
               "memory": "128Mi"
             }
           },
@@ -7636,8 +7636,8 @@ data:
           "image": "proxyv2",
           "resources": {
             "limits": {
-              "cpu": "2000m",
-              "memory": "1024Mi"
+              "cpu": "25m",
+              "memory": "256Mi"
             },
             "requests": {
               "cpu": "10m",
@@ -8921,10 +8921,10 @@ spec:
             timeoutSeconds: 1
           resources:
             limits:
-              cpu: 2000m
-              memory: 1024Mi
+              cpu: 25m
+              memory: 256Mi
             requests:
-              cpu: 100m
+              cpu: 20m
               memory: 128Mi
           env:
           - name: JWT_POLICY
@@ -9172,8 +9172,8 @@ spec:
             value: "Kubernetes"
           resources:
             requests:
-              cpu: 500m
-              memory: 2048Mi
+              cpu: 25m
+              memory: 256Mi
           securityContext:
             allowPrivilegeEscalation: false
             readOnlyRootFilesystem: true
